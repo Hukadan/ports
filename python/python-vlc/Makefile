@@ -13,7 +13,7 @@ GH_TAGNAME=      fff0541
 
 MAINTAINER=      hukadan@protonmail.com
 COMMENT=         ctypes-based bindings for the native libvlc API of the VLC video player. 
-LICENCE=         LGPL21+ 
+LICENSE=         LGPL21+ 
 
 NO_ARCH=         yes
 USES=            python
