@@ -18,10 +18,6 @@ NO_ARCH=         yes
 USES=            python
 USE_PYTHON=      autoplist distutils flavors
 
-.if ${FLAVOR:Upy27}
-PYSETUP=         generated/2.2/setup.py
-.else
 PYSETUP=         generated/3.0/setup.py
-.endif
 
 .include <bsd.port.mk>
