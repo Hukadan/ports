@@ -1,6 +1,6 @@
 # $FreeBSD$
 
-PORTNAME=        python-vlc
+PORTNAME=        vlc
 PORTVERSION=     3.0.6108
 CATEGORIES=      python
 PKGNAMEPREFIX=   ${PYTHON_PKGNAMEPREFIX}
