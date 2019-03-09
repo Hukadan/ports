@@ -15,5 +15,6 @@ COMMENT=         ctypes-based bindings for the native libvlc API of the VLC vide
 
 USES=            python
 USE_PYTHON=      autoplist distutils
+PYSETUP=         generated/2.2/setup.py
 
 .include <bsd.port.mk>
