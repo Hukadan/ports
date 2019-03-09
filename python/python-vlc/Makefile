@@ -3,8 +3,6 @@
 PORTNAME=        python-vlc
 PORTVERSION=     3.0.6108
 CATEGORIES=      python
-py27_PKGNAMESUFFIX= -py27
-py36_PKGNAMESUFFIX= -py36
 
 USE_GITHUB=      yes
 GH_ACCOUNT=      oaubert 
@@ -17,7 +15,7 @@ LICENSE=         LGPL21+
 
 NO_ARCH=         yes
 USES=            python
-USE_PYTHON=      autoplist distutils flavors
+USE_PYTHON=      autoplist distutils allflavors
 
 PYSETUP=         generated/3.0/setup.py
 
