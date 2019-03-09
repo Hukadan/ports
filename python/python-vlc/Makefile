@@ -3,6 +3,7 @@
 PORTNAME=        python-vlc
 DISTVERSION=     3.0.6108
 CATEGORIES=      python
+LICENCE=         LGPL-2.1+ 
 
 USE_GITHUB=      yes
 GH_ACCOUNT=      oaubert 
