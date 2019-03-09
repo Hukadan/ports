@@ -4,6 +4,7 @@ PORTNAME=        python-vlc
 PORTVERSION=     3.0.6108
 CATEGORIES=      python
 py27_PKGNAMESUFFIX= -py27
+py36_PKGNAMESUFFIX= -py36
 
 USE_GITHUB=      yes
 GH_ACCOUNT=      oaubert 
