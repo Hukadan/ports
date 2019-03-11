@@ -18,7 +18,7 @@ USE_PYTHON=      autoplist concurrent distutils allflavors
 USE_GITHUB=      yes
 GH_ACCOUNT=      oaubert
 GH_PROJECT=      python-vlc
-GH_TAGNAME=      fff0541
+GH_TAGNAME=      fff0541870aad3f95edc2dcc46e1ec11438f3ba3
 
 NO_ARCH=         yes
 
