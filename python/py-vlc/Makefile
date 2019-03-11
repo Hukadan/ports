@@ -18,6 +18,7 @@ NO_ARCH=         yes
 USES=            python
 USE_PYTHON=      autoplist concurrent distutils allflavors
 
-PYSETUP=         generated/3.0/setup.py
+WRKSRC_SUBDIR=          generated/3.0/
+PYDISTUTILS_PKGNAME=    python-vlc
 
 .include <bsd.port.mk>
