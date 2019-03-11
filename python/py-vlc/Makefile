@@ -11,6 +11,8 @@ COMMENT=         VLC bindings for python
 LICENSE=         LGPL21+
 LICENSE_FILE=    ${WRKSRC}/COPYING
 
+RUN_DEPENDS=     ${LOCAL_BASE}/lib/libvlc.so.5:multimedia/vlc
+
 USES=            python
 USE_PYTHON=      autoplist concurrent distutils allflavors
 USE_GITHUB=      yes
